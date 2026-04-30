@@ -294,7 +294,7 @@ Move next:
 
 ✅ Average
     51 / 4 = 12.75
-
+    
 Instead of recalculating every subarray (O(n*k)), we update in constant time → overall O(n)
 
 ---
