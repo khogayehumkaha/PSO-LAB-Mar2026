@@ -227,7 +227,6 @@ Step 3:
 
 Return indices (1-based): [1, 2]
 
-
 👉 If sum is too small → move left pointer
 👉 If sum is too large → move right pointer
 ---
