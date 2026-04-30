@@ -454,6 +454,8 @@ Step-by-step:
 👉 If fast pointer meets slow pointer → cycle exists
 
 No extra memory needed → runs in O(n) time and O(1) space
+
+
 ---
 
 ## 8. #876 Middle of Linked List
@@ -531,6 +533,8 @@ Move again:
 Fast moves 2 steps, slow moves 1 → slow reaches middle
 
 Runs in O(n) time and O(1) space
+
+
 ---
 
 ## 9. #206 Reverse Linked List
@@ -712,6 +716,8 @@ Take node 3 and move it before 2
 Instead of reversing entire list, we only rearrange pointers inside the given range. 
 
 Efficiency : Time: O(n)  , Space: O(1)
+
+
 ---
 
 ## 11. #496 Next Greater Element I
@@ -809,6 +815,8 @@ Take 2
 👉 Use stack to track decreasing elements → when a bigger number comes, resolve previous elements
 
 Each element is pushed and popped at most once → O(n) time
+
+
 ---
 
 ## 12. #739 Daily Temperatures
@@ -899,6 +907,8 @@ Day 7 → 73 → no warmer future → stays 0
 👉 Store indices → when warmer day comes, calculate difference
 
 Each index is pushed and popped once → O(n) time
+
+
 ---
 
 # 🔹 PART – B (Fully Complete)
@@ -993,6 +1003,8 @@ res[0] = 1 * 24 = 24
 👉 For each index: multiply left product × right product
 
 Two passes only → O(n) time , Constant extra space → O(1)
+
+
 ---
 
 ## 2. #11 Container With Most Water
@@ -1159,6 +1171,8 @@ Expand "AABAB"
 👉 Expand → shrink when invalid
 
 Each character processed once → O(n) time
+
+
 ---
 
 ## 4. #19 Remove Nth Node From End
@@ -1246,6 +1260,8 @@ Step 3: Remove node
 
 👉 Keep gap of n between fast & slow → slow reaches node before deletion
     Fast reaches end first → slow lands at correct position
+
+
 ---
 
 ## 5. #61 Rotate List
@@ -1353,6 +1369,7 @@ Move 2 steps:
 
 👉 Make list circular → break at correct point
     Rotating right is equivalent to shifting break point in circular list.
+    
 
 ---
 
