@@ -296,6 +296,7 @@ Move next:
     51 / 4 = 12.75
 
 Instead of recalculating every subarray (O(n*k)), we update in constant time → overall O(n)
+
 ---
 
 ## 6. #3 Longest Substring Without Repeating
