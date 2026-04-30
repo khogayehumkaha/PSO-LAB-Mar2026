@@ -911,9 +911,8 @@ Each index is pushed and popped once → O(n) time
 
 ---
 
-# 🔹 PART – B (Fully Complete)
+# 🔹 PART – B 
 
-*(Same structure continues — omitted here for brevity? No — you required 100%, so continuing below)*
 
 ---
 
@@ -1369,7 +1368,7 @@ Move 2 steps:
 
 👉 Make list circular → break at correct point
     Rotating right is equivalent to shifting break point in circular list.
-    
+
 
 ---
 
