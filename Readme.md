@@ -391,11 +391,6 @@ class ListNode:
         self.val = val
         self.next = None
 
-class ListNode:
-    def __init__(self, val=0):
-        self.val = val
-        self.next = None
-
 def hasCycle(head):
     slow = fast = head
     while fast and fast.next:
