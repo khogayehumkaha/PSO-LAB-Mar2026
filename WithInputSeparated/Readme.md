@@ -8,6 +8,8 @@
 
 ## 1. #303 Range Sum Query (Prefix Sum)
 
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
+
 ### ❓ Question
 
 Given an integer array `nums`, handle multiple queries to calculate the sum of elements between indices `left` and `right` (inclusive).
