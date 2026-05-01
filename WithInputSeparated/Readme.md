@@ -100,7 +100,7 @@ Result = 10 - 1 = 9
 
 ## 2. #560 Subarray Sum Equals K
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find the total number of continuous subarrays whose sum equals `k`.
 
@@ -199,7 +199,7 @@ If (current_sum - k) exists in map → valid subarray found
 
 ## 3. #125 Valid Palindrome
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Check whether a string is a palindrome after removing non-alphanumeric characters and ignoring case.
 
@@ -292,7 +292,7 @@ Even though slicing is used, logically it works like **Two Pointers**:
 
 ## 4. #167 Two Sum II
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find two numbers in a sorted array that add up to a target.
 
@@ -400,7 +400,7 @@ Since the array is sorted:
 
 ## 5. #643 Maximum Average Subarray
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find the maximum average of a subarray of length `k`.
 
@@ -521,7 +521,7 @@ Instead of recalculating every subarray (**O(n*k)**), we update in constant time
 
 ## 6. #3 Longest Substring Without Repeating
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find the length of the longest substring without repeating characters.
 
@@ -647,7 +647,7 @@ Each character is:
 
 ## 7. #141 Linked List Cycle
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Detect if a linked list contains a cycle.
 
@@ -763,7 +763,7 @@ If fast pointer meets slow pointer → cycle exists
 
 ## 8. #876 Middle of Linked List
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Return the middle node of a linked list.
 
@@ -879,7 +879,7 @@ Fast moves 2 steps, slow moves 1 → slow reaches middle
 
 ## 9. #206 Reverse Linked List
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Reverse a singly linked list.
 
@@ -1004,7 +1004,7 @@ Reverse each node’s next pointer to point to previous node
 
 ## 10. #92 Reverse Linked List II
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Reverse nodes between positions `left` and `right`.
 
@@ -1150,7 +1150,7 @@ Pick next node and insert it at the front of the sublist
 
 ## 11. #496 Next Greater Element I
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find next greater element for each element in `nums1`.
 
@@ -1279,7 +1279,7 @@ Use stack to track decreasing elements → resolve when larger number appears
 
 ## 12. #739 Daily Temperatures
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find number of days until a warmer temperature.
 
@@ -1416,7 +1416,7 @@ Store indices → when warmer day appears, calculate difference
 
 ## 1. #238 Product of Array Except Self
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Return array where each element is product of all elements except itself.
 
@@ -1550,7 +1550,7 @@ For each index → result = left product × right product
 
 ## 2. #11 Container With Most Water
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find max water container area.
 
@@ -1687,7 +1687,7 @@ Move pointer with smaller height to try increasing area
 
 ## 3. #424 Longest Repeating Character Replacement
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Find longest substring with same characters after at most `k` replacements.
 
@@ -1827,7 +1827,7 @@ Expand window → shrink when (window - maxf > k)
 
 ## 4. #19 Remove Nth Node From End
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Remove the `n`th node from the end of a linked list.
 
@@ -1971,7 +1971,7 @@ Keep a gap of n between fast and slow → slow reaches node before deletion
 
 ## 5. #61 Rotate List
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Rotate linked list to the right by `k` positions.
 
@@ -2131,7 +2131,7 @@ Make list circular → break at correct position
 
 ## 6. #901 Online Stock Span
 
-### ❓ Question
+![Question](https://img.shields.io/badge/Question-Problem-blue?style=for-the-badge)
 
 Calculate stock span for each day.
 
