@@ -6,7 +6,7 @@
 
 ---
 
-## <span style="color:#ff5733;">1. rgb(206, 193, 11) Range Sum Query (Prefix Sum)</span>
+## <span style="color:#ff5733;">1. #303 Range Sum Query (Prefix Sum)</span>
 
 ### ❓ Question
 
